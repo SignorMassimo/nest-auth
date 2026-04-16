@@ -1,0 +1,23 @@
+{
+    "name": "nest-auth",
+    "version": "0.0.1",
+    "description": "This is a register/login api package for nestjs and nex platform.",
+    "files": [
+        "src",
+        "README.md"
+    ],
+    "keywords": [
+        "nestjs",
+        "backend",
+        "auth",
+        "database"
+    ],
+    "setup": {
+        "scripts": [
+            "bun install @nestjs/common @nestjs/typeorm typeorm"
+        ],
+        "files": {
+            "src": "."
+        }
+    }
+}
